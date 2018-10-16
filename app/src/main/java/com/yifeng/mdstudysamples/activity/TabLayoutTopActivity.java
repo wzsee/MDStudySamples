@@ -87,6 +87,9 @@ public class TabLayoutTopActivity extends BaseActivity {
             case R.id.tab_mode_scrollable:
                 mTabTl.setTabMode(TabLayout.MODE_SCROLLABLE);
                 break;
+            case R.id.tab_indicator_height:
+                mTabTl.setSelectedTabIndicatorHeight(0);
+                break;
         }
         return super.onOptionsItemSelected(item);
     }

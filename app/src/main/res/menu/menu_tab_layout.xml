@@ -18,4 +18,9 @@
         android:title="MODE_SCROLLABLE"
         app:showAsAction="never"/>
 
+    <item
+        android:id="@+id/tab_indicator_height"
+        android:title="Indicator_Height"
+        app:showAsAction="never"/>
+
 </menu>
